@@ -1,0 +1,9 @@
+<core:FragmentDefinition xmlns:core="sap.ui.core" xmlns="sap.m">
+    <Column inScreenWidth="Tablet" demandPopin="true">
+        <Text text="Comment"/>
+        <customData>
+            <core:CustomData key="p13nData"
+                   value='\{"columnKey": "descr", "columnIndex" : "101"}' />
+     </customData>
+    </Column>
+</core:FragmentDefinition>
