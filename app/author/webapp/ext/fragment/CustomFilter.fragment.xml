@@ -1,0 +1,27 @@
+<core:FragmentDefinition
+		xmlns="sap.m"
+		xmlns:smartfilterbar="sap.ui.comp.smartfilterbar"
+		xmlns:core="sap.ui.core" controller="com.sap.author.ext.controller.CustomFilter">
+	<!-- Price Filter-->
+	<smartfilterbar:ControlConfiguration key="CustomGenderFilter" index="3" 
+	label="Gender" visibleInAdvancedArea="true" groupId="_BASIC">
+		<smartfilterbar:customControl>
+			<ComboBox id="CustomPriceFilter-combobox">
+				<core:Item id="CustomPriceFilterItem0" key="Male" 
+						text="Male"/>
+				<core:Item id="CustomPriceFilterItem3" key="Female" 
+						text="Female"/>
+			</ComboBox>
+		</smartfilterbar:customControl>
+	</smartfilterbar:ControlConfiguration> 
+	<smartfilterbar:ControlConfiguration key="CustomCompleteFilter" index="4" 
+	label="Complete" visibleInAdvancedArea="true" groupId="_BASIC">
+		<smartfilterbar:customControl>
+			<Switch state="true">
+				<layoutData>
+					<FlexItemData growFactor="1" />
+				</layoutData>
+			</Switch>
+		</smartfilterbar:customControl>
+	</smartfilterbar:ControlConfiguration> 
+</core:FragmentDefinition>	

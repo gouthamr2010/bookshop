@@ -94,7 +94,15 @@
                             "fragmentName": "com.sap.author.ext.fragment.ObjectPageTableCell",
                             "type": "XML"
                         }
-                    }
+                    },
+                    "sap.suite.ui.generic.template.ListReport.view.ListReport": {
+                        "SmartFilterBarControlConfigurationExtension|Books": {
+                                "className": "sap.ui.core.Fragment",
+                                "fragmentName": "com.sap.author.ext.fragment.CustomFilter",
+                                "type": "XML"
+                        }                 
+                     }
+            
                 },
                 "sap.ui.controllerExtensions": {
                     "sap.suite.ui.generic.template.ObjectPage.view.Details": {
@@ -117,6 +125,10 @@
                                 }
                             }
                         }
+                    },
+
+                    "sap.suite.ui.generic.template.ListReport.view.ListReport": {
+                        "controllerName": "com.sap.author.ext.controller.CustomFilter"
                     }
                 }
             }
