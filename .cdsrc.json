@@ -1,1 +1,19 @@
-{}
+{
+	"auth": {
+		"passport": {
+			"strategy": "mock",
+			"users": {
+				"goutham": {
+					"password": "1234",
+					"ID": "goutham",
+					"roles": [
+						"authenticated-user"
+					]
+				}
+			}
+		}
+	},
+    "features": {
+        "localized": false
+    }
+}

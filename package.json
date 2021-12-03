@@ -16,7 +16,8 @@
     "sqlite3": "^5.0.2"
   },
   "scripts": {
-    "start": "cds run"
+    "start": "cds run",
+    "db-sync": "cds deploy --to sqlite:bookshop.db"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
@@ -52,7 +53,6 @@
     "requires": {
       "db": {
         "kind": "sqlite",
-        "model": "*",
         "credentials": {
           "database": "bookshop.db"
         }

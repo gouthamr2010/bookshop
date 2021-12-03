@@ -1,3 +1,6 @@
+annotate AdminService.Books with @fiori.draft.enabled;
+annotate AdminService.Books with @odata.draft.enabled;
+
 annotate AdminService.Authors with
 @(
     Capabilities.InsertRestrictions : {Insertable : true},
